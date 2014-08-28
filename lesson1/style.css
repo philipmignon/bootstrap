@@ -1,0 +1,20 @@
+body {
+	background-color: #666;
+}
+
+.container {
+	width: 80%;
+	background-color: #fff;
+}
+
+/* helpers */
+.blue { background-color: blue; }
+.red { background-color: red;}
+.black { background-color: black;}
+.yellow { background-color: yellow;}
+.white { background-color: white;}
+.mt10 {margin-top: 10px;}
+
+.nav {
+	margin:10px 0px;
+}
