@@ -1,0 +1,130 @@
+body {
+	background-color: #666;
+}
+
+.container {
+	width: 1024px;
+}
+
+/* helpers */
+.blue { background-color: blue; }
+.red { background-color: red;}
+.black { background-color: black;}
+.yellow { background-color: yellow;}
+.green {background-color: #666;}
+.white { background-color: white;}
+.mt10 {margin-top: 10px;}
+
+.nav {
+	margin:10px 0px;
+}
+
+
+
+.header {
+	height: 300px;
+	background-color: #666;
+}
+
+
+.header h1 {
+	font-size: 60px;
+}
+
+
+.box {
+	background-color: red;
+	width: 150px;
+	height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*==========  Mobile First Method  ==========*/
+
+	/* Custom, iPhone Retina */ 
+	@media only screen and (min-width : 320px) {
+		body {
+			background-color: red;
+		}
+		
+	}
+
+	/* Extra Small Devices, Phones */ 
+	@media only screen and (min-width : 480px) {
+		body {
+			background-color: green;
+		}
+
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (min-width : 768px) {
+
+
+		.header h1 {
+			font-size: 160px;
+		}
+
+		.box {
+			background-color: green;
+			width: 1000px;
+			height: 70px;
+			position: fixed;
+			top:0px;
+			left:0px;
+			z-index: 10;
+		}
+
+
+
+		body {
+			background-color: blue;
+		}
+
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (min-width : 992px) {
+		body {
+			background-color: black;
+		}
+
+	}
+
+	/* Large Devices, Wide Screens */
+	@media only screen and (min-width : 1200px) {
+		body {
+			background-color: white;
+		}
+
+	}
