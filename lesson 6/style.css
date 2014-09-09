@@ -1,0 +1,111 @@
+body {
+	background-color: #272822;
+}
+
+.container {
+	background-color: #ccc;
+}
+
+
+/* helpers */
+.blue { background-color: blue; }
+.red { background-color: red;}
+.green	{ background-color: green;}
+.black { background-color: black;}
+.yellow { background-color: yellow;}
+.white { background-color: white;}
+.mt10 {margin-top: 10px;}
+
+.nav {
+	margin:10px 0px;
+}
+
+.panel-group.deal .panel {
+	border-radius: 0px;
+}
+.deal .panel .panel-heading {
+	background-color: #75715E;
+	border-radius: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#box {}
+
+
+ul#box li {
+	
+}
+
+#deal ul.box li a {
+	
+}
+
+
+#deal ul.box li a:hover, #deal ul.box li a:focus, #deal ul.box li a.active  {
+
+} 
+
+
+.box.red a {
+	
+}
+
+#box {
+	background-color: black;
+	height: 400px;
+	width: 400px;
+}
+
+
+#box li {
+	background-color: green;
+}
+
+#box > li {
+	background-color: red;
+	display: block;
+	width: 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.deal .panel-default {
+	border:none;
+}

@@ -1,5 +1,5 @@
 body {
-	background-color: #666;
+	background-color: #272822;
 }
 
 .container {
@@ -18,10 +18,12 @@ body {
 	margin:10px 0px;
 }
 
-.col-sm-12 {
-	
+.panel-group.deal .panel {
+	border-radius: 0px;
+}
+.deal .panel .panel-heading {
+	background-color: #75715E;
+	border-radius: 0px;
 }
 
-.panel-group .panel {
-	background-color: red;
-}
+
