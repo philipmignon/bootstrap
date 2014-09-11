@@ -1,0 +1,146 @@
+body {
+	background-color: #272822;
+}
+
+.container {
+}
+
+
+
+
+/* helpers */
+.blue { background-color: blue; }
+.red { background-color: red;}
+.green	{ background-color: green;}
+.black { background-color: black;}
+.yellow { background-color: yellow;}
+.white { background-color: white;}
+.mt10 {margin-top: 10px;}
+
+.op1 {opacity: .1;}
+.op2 {opacity: .2;}
+.op3 {opacity: .3;}
+.op4 {opacity: .4;}
+.op5 {opacity: .5;}
+.op6 {opacity: .6;}
+.op7 {opacity: .7;}
+.op8 {opacity: .8;}
+.op9 {opacity: .9;}
+
+
+.panel-group.deal .panel {
+	border-radius: 0px;
+}
+.deal .panel .panel-heading {
+	background-color: #75715E;
+	border-radius: 0px;
+}
+
+/* Type  ======================== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, .btn {
+    font-family: 'Knockout 28 A', 'Knockout 28 B';
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+}
+
+/* Button Styles ======================== */
+
+.btn-primary {
+	background-color: #E06E5B;
+	border:0px;
+}
+
+.btn-primary:hover {
+	background-color: #E06E5B;
+	border:0px;
+}
+
+
+
+
+/* Header / Nav  ============================== */
+.header {
+	background-color: black;
+}
+
+.navbar.navbar-default {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: black;
+	border: 0px;
+}
+.nav.navbar-nav {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.nav.navbar-nav li a:hover {
+	background-color: #E06E5B;
+	color:#000;
+}
+.nav.navbar-nav li.active a {
+	color:#000;
+	background-color: #fff;
+	border-bottom: 7px solid #E06E5B;
+}
+.nav.navbar-nav li.active a:hover {
+	background-color: #E06E5B;
+	color:#000;
+} 
+
+/* Slider ============================= */
+
+.slider {
+	position: relative;
+}
+.slider .col-xs-12 {
+	position: absolute;
+	top:0px;
+	z-index: 2;
+}
+.slider img {
+	opacity: .7;
+}
+.slider h1 {
+	color:#fff;
+	font-size: 150px;
+	letter-spacing: .005em;
+	line-height: .8em;
+}
+.slider hr {
+	border:0px;
+	height: 6px;
+	background-color: #E06E5B;
+}
+
+.slider h3 {
+	color:#fff;
+	text-transform: lowercase;
+	letter-spacing: .03dm;
+}
+
+
+
+
+
+
+
+@media(max-width:767px){}
+
+@media(min-width:768px){
+	
+
+}
+
+
+@media(min-width:992px){}
+@media(min-width:1200px){}
+
+
+
