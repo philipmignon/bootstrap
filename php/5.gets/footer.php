@@ -1,0 +1,9 @@
+
+<hr>
+<div class="footer">
+this is the footer
+</div>
+
+</div>
+</body>
+</html>

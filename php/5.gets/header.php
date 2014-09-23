@@ -1,18 +1,3 @@
-<?php
-function is_page($page){
-	// get current URL script part
-	$script   = $_SERVER['SCRIPT_NAME'];
-	// strip out location of the folder paths
-	$current_page = str_replace("/bootstrap/php/lesson2/","",$script);
-
-	// remove the .php from the path
-	$current_page = str_replace(".php","",$current_page);
-
-	if($current_page == $page){
-		return 'active';
-	}
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -20,23 +5,10 @@ function is_page($page){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>
-	<?php 
-		if(is_page('index')){
-			echo 'home page!';
-		}
-		if(is_page('about')){
-			echo 'the about page!';
-		}
-		if(is_page('contact')){
-			echo 'the contact page!';
-		}
-	
-	?>
-
-    </title>
+    <title>Working with Mail</title>
 
     <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
 	<style>
 
 	.container	{
