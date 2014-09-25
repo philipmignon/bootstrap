@@ -28,7 +28,8 @@ echo $_GET['color'];
   <div class="form-group">
     <label for="search" class="col-sm-2 control-label">search</label>
     <div class="col-sm-10">
-      <input type="text" class="form-control" id="num2" name="search" value="<?php if($_GET['search']){ echo $_GET['search']; }?>">
+      <input type="text" class="form-control" id="search" 
+        name="search" value="<?php if($_GET['search']){ echo $_GET['search']; }?>">
     </div>
   </div>
 
