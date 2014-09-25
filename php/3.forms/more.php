@@ -3,13 +3,13 @@
 ini_set('display_errors', 'On');
 
 	
-	// echo "<pre>";
-	// print_r($_POST);
-	// echo "</pre>";
+	echo "<pre>";
+		print_r($_POST);
+	echo "</pre>";
 
 	// process the form
 	// if form was submited
-	if(issetd($_POST['cat_name'])){
+	if(isset($_POST['submit'])){
 		// set var
 		$cat_name  = $_POST['cat_name'];
 		$cat_info  = $_POST['cat_info'];
@@ -44,13 +44,13 @@ ini_set('display_errors', 'On');
 		    <label for="cat_name">Name</label>
 		    <input type="text" class="form-control" id="cat_name" name="cat_name">
 		  </div>
-		  
+	  
 			<div class="form-group">
 				<label for="cat_info">Cat Info</label>
-				<textarea class="form-control" name="cat_info" id="cat_info" rows="3"></textarea>
+				<textarea class="form-control" name="cat_info" id="cat_info" rows="10"></textarea>
  			</div>
  		
-			<label>Cat Color</label>
+			<label for="cat_color">Cat Color</label>
 			<select class="form-control" name="cat_color" id="cat_color">
 			  <option value="Black">Black</option>
 			  <option value="White">White</option>
@@ -67,7 +67,7 @@ ini_set('display_errors', 'On');
 			  </label>
 			</div>
 			<br>
-		  <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+		  <button type="submit" name="submit" class="btn btn-primary btn-lg">Submit</button>
 		</form>
 	</div>
 

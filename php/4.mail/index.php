@@ -1,16 +1,22 @@
 <?php
 
+mail('info@trevorgreenleaf.com', 'deal', 'mess');
+
+
+
+ini_set('display_errors', 'On');
+
 // process the form
 // if form was submited
 if(isset($_POST['submit']))
 {
 
-	// echo "<pre>";
-	// print_r($_POST);
-	// echo "</pre>";
+	echo "<pre>";
+	print_r($_POST);
+	echo "</pre>";
 
 	if( 
-		isset($_POST['first_name']) &&
+		!empty($_POST['first_name']) &&
 		isset($_POST['last_name']) &&
 		isset($_POST['email']) &&
 		isset($_POST['subject']) &&
@@ -41,9 +47,7 @@ if(isset($_POST['submit']))
 		} else {
 			echo 'Error';
 		}
-	}
-	else
-	{
+	} else {
 		// something happned
 		echo '<div class="alert alert-danger">Please fill out all fields.</div>';
 	}
