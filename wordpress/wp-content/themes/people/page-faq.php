@@ -18,7 +18,6 @@ $i = 1;
 
 if($faqs){
 
-
 echo '<div class="panel-group" id="accordion">';
 	foreach($faqs as $faq)
 	{ ?>
@@ -31,7 +30,7 @@ echo '<div class="panel-group" id="accordion">';
         </a>
       </h4>
     </div>
-    
+
     <div id="<?php echo'collapse_'.$i;?>" class="panel-collapse collapse 
     <?php if($i == 1) { echo'in';} ?>">
 
@@ -41,7 +40,6 @@ echo '<div class="panel-group" id="accordion">';
     </div>
   </div>
   <?php $i++; ?>
-
 
 	<?php }
 echo '</div>';
