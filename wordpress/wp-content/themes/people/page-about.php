@@ -1,6 +1,6 @@
 <?php get_header();
 /*
-Template Name: FAQ Page
+Template Name: About Page
 */
 ?>
 
